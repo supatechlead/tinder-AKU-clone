@@ -1,12 +1,15 @@
-# tinder-clone
-A Tinder Clone for educational purposes
+#tinder-clone
 
-Please follow along here to build this project: https://www.youtube.com/watch?v=Q70IMS-Qnjk
+tinder-clone freely inspired by Ania Kubow tutorial. See link https://www.youtube.com/watch?v=Q70IMS-Qnjk&t=9723s
 
-Copyright (c) Ania Kubow
+Please add an .env file containing template:
+MONGO_URI='mongo+srv://<user>:<pass>@<host>:<port>/<database>?<connection options>'
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Install dependencies with:
+npm install
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Start frontend in client folder with:
+npm run start:frontend
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Start backend server folder with:
+npm run start:backend
